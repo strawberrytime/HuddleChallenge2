@@ -5,38 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" href="/Users/Rosemarie/Desktop/Web Development/Github/HuddleChallenge2/css/stylesheet-main.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins" rel="stylesheet">
+
   <title>Frontend Mentor | Huddle landing page with single column layout</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Build The Community Your Fans Will Love
+  <div class="top-container">
+    <img class="top-logo" src="images/logo.svg" alt="Huddle-color-logo">
+    <div class="top-content">
+      <h1 class="top-header">Build The Community Your Fans Will Love</h1>
+      <p class="top-blurb">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+      <div class="top-img-container">
+        <img class="top-img" src="images/screen-mockups.svg" alt="mockups-img">
+      </div>
+      <h1>Sign Up For Early Access</h1>
+      <form class="email-form" action="mailto:abc@123.com"method="post">
+        <input class="email-box" type="text" name="email" placeholder="email@example.com">
+        <input class="register-btn" type="submit" name="register" value="Register">
+      </form>
+    </div>
+  </div>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does 
-  your audience. Create connections with your users as you engage in genuine discussion.
-
-  Sign Up For Early Access
-
-  Register
-
-  About Us
-  What We Do
-  FAQ
-  Career
-  Blog
-  Contact Us
-
-  &copy; 2018 Huddle Copyright
-
+<div class="bottom-container">
+  <div class="bottom-content">
+    <div class="bottom-logo-container">
+      <img class="bottom-logo" src="images/logo-white.png" alt="Huddle-logo-white">
+    </div>
+    <p class="about-us">About Us</p>
+    <p class="what-we-do">What We Do</p>
+    <p class="FAQ">FAQ</p>
+    <p class="career">Career</p>
+    <p class="blog">Blog</p>
+    <p class="contact-us">Contact Us</p>
+  </div>
+  <div class="icons">
+<a href="#">
+  <img class="facebook-icon" src="images/facebook-white.svg" alt="facebook-link">
+</a>
+<a href="#">
+  <img class="instagram-icon" src="images/instagram-white.svg" alt="instagram-link">
+</a>
+<a href="#">
+  <img class="twitter-icon" src="images/twitter-square-white.svg" alt="twitter-link">
+</a>
+  </div>
+  <p class="copyright">&copy; 2018 Huddle Copyright</p>
   <footer>
     <p class="attribution">
       This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
     </p>
   </footer>
+</div>
+
 </body>
 </html>
